@@ -84,10 +84,6 @@ y <- lapply(1:n, function(i) rnorm(50, mean = x[i], sd = 0.1))
 fit <- grem(y, x, xOut = c(0.3, 0.5, 0.7))
 ```
 
-## Original Simulation and Real Data Scripts
-
-The package also includes the original simulation and real data analysis scripts in the `Simulation/` and `RealData/` directories for reproducibility.
-
 ## Citation
 
 ```
